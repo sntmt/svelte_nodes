@@ -21,15 +21,3 @@ path_1.setOutput(add)
 const path_2 = new Path(666);
 path_2.setInput(num_2.getId())
 path_2.setOutput(add)
-
-
-const store = [
-  num_1, num_2, path_1, path_2, add
-]
-
-const state = {
-  
-}
-
-console.log(path_1)
-console.log(add)

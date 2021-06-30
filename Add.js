@@ -7,7 +7,11 @@ module.exports = class Add {
     this.inputs.push(_value)
   }
   getResult() {
-    return this.inputs.reduce((a, b) => a + b, 0);
+    var result = [];
+    this.inputs.forEach(element => {
+      element.getObservable().subscribe(value => result.push(value) )
+    })
+    return result.reduce((a, b) => a + b, 0)
   }
   getId() {
     return this.id;
