@@ -1,0 +1,32 @@
+[
+  {
+    "type": "number",
+    "id": 333,
+    "value": 23
+  },
+  {
+    "type": "number",
+    "id": 444,
+    "value": 45
+  },
+  {
+    "type": "add",
+    "id": 66,
+    "input": [
+      66666,
+      55555
+    ]
+  },
+  {
+    "type": "path",
+    "id": 55555,
+    "input": 333,
+    "output": 66
+  },
+  {
+    "type": "path",
+    "id": 66666,
+    "input": 444,
+    "output": 66
+  }
+]
